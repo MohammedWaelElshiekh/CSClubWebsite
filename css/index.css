@@ -6,12 +6,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #666666;
   font-size: 14px;
-  line-height: 1.80857;
-  font-weight: normal;
 }
-
+/* Header section */
 .header {
   width: 100%;
   padding: 0px 60px;
@@ -124,3 +121,55 @@ ul.social_icon li a:hover {
     margin-bottom: 0;
   }
 }
+/* End header section */
+/* Start Slides section */
+.article-img {
+  width: 550px;
+  height: 300px;
+}
+.slides article {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  align-items: center;
+  margin-top: 100px;
+}
+.article-box {
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+  height: 300px;
+  width: 600px;
+  background-color: #28b6b6;
+  border-color: #d9d9d9;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+.slide-button {
+  font-size: 25px;
+  border-radius: 25px;
+  border-color: #d9d9d9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #d9d9d9;
+  border: none;
+  padding: 5px 20px;
+  display: block;
+  margin-left: auto;
+  transition: 0.5s;
+  font-weight: bold;
+  font-style: italic;
+}
+.slides article div h4 {
+  color: white;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin: 0;
+}
+.slides article div p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+/* End slides Section */
