@@ -179,3 +179,43 @@ ul.social_icon li a:hover {
   border-radius: 15px;
 }
 /* End slides Section */
+/* footer section */
+footer {
+  background-color: #042939;
+  margin-top: 50px;
+}
+.Club_logo {
+  height: 100px;
+  float: left;
+}
+.footer-p {
+  color: white;
+  font-family: "Inter";
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.H1-footer {
+  color: white;
+  font-size: 32px;
+  font-family: "Inter";
+  font-weight: 700;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  text-decoration: none;
+}
+.H1-footer-3 {
+  line-height: 2.5;
+}
+.fa-brands {
+  color: white;
+  padding-right: 2%;
+}
+.Icons {
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-top: 40px;
+}
+/* end footer section */
