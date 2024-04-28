@@ -146,6 +146,7 @@ ul.social_icon li a:hover {
   border-style: solid;
   border-radius: 5px;
   padding: 20px;
+  position: relative;
 }
 .slide-button {
   font-size: 25px;
@@ -156,10 +157,12 @@ ul.social_icon li a:hover {
   border: none;
   padding: 5px 20px;
   display: block;
-  margin-left: auto;
   transition: 0.5s;
   font-weight: bold;
   font-style: italic;
+  bottom: 30px;
+  position: absolute;
+  right: 30px;
 }
 .slides article div h4 {
   color: white;
@@ -171,5 +174,8 @@ ul.social_icon li a:hover {
 .slides article div p {
   color: white;
   font-family: "Times New Roman", Times, serif;
+}
+.slides article img {
+  border-radius: 15px;
 }
 /* End slides Section */
